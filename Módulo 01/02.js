@@ -1,8 +1,8 @@
 function pares(x, y) {
-  for (var i = x; i <= y; i++) {
-    if (i % 2 === 0) {
-      console.log(i);
-    }
+  x = (x % 2 === 0)? x:x + 1
+
+  for (var i = x; i <= y; i += 2) {
+     console.log(i);
   }
 }
 
